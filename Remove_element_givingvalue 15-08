@@ -7,4 +7,4 @@ class Solution:
                 nums.pop(i)
             else:
                 i=i+1
-        print(len(nums))
+        print(len(nums))  /*It is used to find length of array for 3223 output 2 which is 22 */
