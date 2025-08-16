@@ -1,7 +1,7 @@
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         i=0
-        while(i<len(nums) and target>=nums[i]):
+        while(i<len(nums) and target>=nums[i]):// it will work like 1356 and target 4  4>3 then index i=2
             if(target==nums[i]):
                 return i
             i=i+1
