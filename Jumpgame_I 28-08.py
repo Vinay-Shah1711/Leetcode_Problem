@@ -1,3 +1,7 @@
+# here we go through at index 1 and check at index 0 value if it is 2 we go till 2nd index and so on 
+# and we check our element will go till last element or reach our limit at the ende of list or not if it will go 
+# if elemnts limit go till last element return true else false This is jump game I
+
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
             max_reach = 0   # furthest index we can reach so far
@@ -16,5 +20,6 @@ class Solution:
                     return True
 
             return True
+
 
             
