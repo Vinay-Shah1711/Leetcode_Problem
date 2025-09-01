@@ -8,4 +8,11 @@ class Solution:
                break
             n += 1
         return n
-                
+
+
+
+#   **** SHORTCUT ****
+
+# class Solution:
+#     def lengthOfLastWord(self, s: str) -> int:
+#         return len(s.strip().split()[-1])
