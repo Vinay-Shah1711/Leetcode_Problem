@@ -3,7 +3,8 @@ class RandomizedSet:
 
     def __init__(self):
         self.data = []
-        self.pos = {}
+        # Pos is a dictionary
+        self.pos = {}   
 
     def insert(self, val: int) -> bool:
         if val in self.pos:
