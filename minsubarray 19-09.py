@@ -1,4 +1,4 @@
-from typing import List
+# INCOMPLETE TO UNDERSTAND ONLY DOING CODING
 
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
